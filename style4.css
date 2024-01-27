@@ -1,0 +1,141 @@
+body{
+    background-color: #f6f6f6;
+    margin: 0;
+}
+.logo{
+    /* height: 50px; */
+    width: 10vw;
+    /* background-color: aqua; */
+}
+nav{
+    display: flex;
+    align-items: center ;
+    justify-content: space-around;
+    height: 60px;
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.2);
+
+}
+
+.right ul{
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+    cursor: pointer;
+}
+.first{
+    margin-top: 10vh;
+}
+.parent{
+    margin-left: 27vw;
+    display: flex;
+    gap: 50px;
+    
+
+}
+.box{
+    position: relative;
+    padding-left: 10px;
+    border: 2px solid #f15622;
+    font-weight: 500;
+    height: 40px;
+    width: 140px;
+    border-right: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1{
+    position: absolute;
+    border: 2px solid #f15622;
+    transform: rotate(45deg);
+    width: 29px;
+    height: 29px;
+    right: -16px;
+    top: 5px ;
+    border-left: none;
+    border-bottom: none;
+}
+
+.box2{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    border: 2px solid #f15622;
+    transform: rotate(42deg);
+    left: -13.8px;
+    border-left: none;
+    border-bottom: none;
+}
+.box4{
+    border-left: none;
+    padding-left: 20px;
+}
+
+.head{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    width: 100%;
+    padding: 3vh 0;
+}
+
+.main{
+    margin-left: 20vw;
+    margin-top: 10vh;
+    width: 60vw;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10vh;
+}
+
+.form{
+    background-color: #eeee;
+    /* width: 50vw; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+.form input{
+    width: 30vw;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#submit{
+    width: 96% !important;
+    padding: 10px 25px !important;
+}
+
+.splbox {
+    background-color: #4caf50;
+    padding-left: 0;
+    color: white;
+    border: #4caf50;
+    width: 180px;
+    font-weight: 600;
+}
+
+.splbox1 {
+    background-color: #4caf50;
+    border: #4caf50;
+}
+
+.splbox4{
+    background-color: #4caf50;
+    padding-left: 0;
+    color: white;
+    border: #4caf50;
+    width: 180px;
+    font-weight: 600;
+}
+.splbox2{
+    background-color: #f6f6f6;
+    border-color: #4caf50;
+}
