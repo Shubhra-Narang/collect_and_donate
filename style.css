@@ -11,7 +11,7 @@
     /* background: rgb(69, 61, 50); */
     background-color:  rgb(94, 83, 66);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 0rem calc((100vw - 1300px) / 2);
   }
@@ -34,6 +34,11 @@ display: flex;
   
   }
   
+  .nav-items{
+    align-items: center;
+    display: flex;
+  }
+
  
   
   nav a {
