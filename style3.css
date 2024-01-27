@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    background-color: #f6f6f6;
+}
+
+.logo {
+    /* height: 50px; */
+    width: 10vw;
+    /* background-color: aqua; */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.2);
+
+}
+
+.right ul {
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.first {
+    margin-top: 10vh;
+}
+
+.parent {
+    margin-left: 27vw;
+    display: flex;
+    gap: 25px;
+
+
+}
+
+.box {
+    position: relative;
+    padding-left: 0px;
+    border: 2px solid #f15622;
+    font-weight: 500;
+    height: 40px;
+    width: 140px;
+    border-right: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 {
+    position: absolute;
+    border: 2px solid #f15622;
+    transform: rotate(45deg);
+    width: 29px;
+    height: 29px;
+    right: -15px;
+    top: 5px;
+    border-left: none;
+    border-bottom: none;
+}
+
+.box2 {
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    border: 2px solid #f15622;
+    transform: rotate(45deg);
+    left: -16px;
+    border-left: none;
+    border-bottom: none;
+}
+
+.box4 {
+    border-left: none;
+    padding-left: 20px;
+}
+
+.center {
+    margin-left: 20vw;
+    margin-top: 10vh;
+    width: 50vw;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10vh;
+}
+
+.center .head {
+    padding: 12px;
+    font-size: 24px;
+}
+
+.items {
+    width: 52px;
+    height: 52px;
+}
+
+.clothes {
+    display: flex;
+    padding: 1em;
+
+}
+
+.clothes p {
+    margin-right: 25.2vw !important;
+    margin-left: 3vw !important;
+}
+
+.shoes {
+    display: flex;
+    padding: 2em;
+}
+
+.shoes p {
+    margin-right: 25vw !important;
+    margin-left: 3vw !important;
+}
+
+.stationary {
+    display: flex;
+    padding: 1em;
+}
+
+.stationary p {
+    margin-right: 24.4vw !important;
+    margin-left: 3vw !important;
+}
+
+.Bag {
+    display: flex;
+    padding: 1em;
+}
+
+.Bag p {
+    margin-right: 27.4vw !important;
+    margin-left: 3vw !important;
+}
+
+.Furniture {
+    display: flex;
+    padding: 1em;
+
+}
+
+.Furniture p {
+    margin-right: 25.2vw !important;
+    margin-left: 3vw !important;
+}
+
+.note {
+    padding: 2em;
+}
+
+.btn1 {
+    /* padding: 0.5px 10px !important; */
+    color: black;
+    cursor: pointer;
+    margin-left: 20vw;
+}
+
+.btn1 button {
+    padding: 12px 15px;
+    margin-top: 10px;
+    font-size: 20px;
+    border: 1px dotted black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+.btn1 a {
+    text-decoration: none;
+}
+
+.btn1 a:visited {
+    color: black;
+
+}
+
+.end input {
+    margin-top: 20px;
+    margin-left: 8vw;
+}
+
+.end h3 {
+    margin-left: 16vw;
+}
+
+.lbl1 {
+    margin-left: 18vw;
+}
+
+.splbox {
+    background-color: #4caf50;
+    padding-left: 0;
+    color: white;
+    border: #4caf50;
+    width: 180px;
+    font-weight: 600;
+}
+
+.splbox1 {
+    background-color: #4caf50;
+    border: #4caf50;
+}
