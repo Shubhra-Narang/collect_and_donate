@@ -64,6 +64,7 @@ display: flex;
     background-size: cover;
     background-position: center;
     display: grid;
+    opacity:2;
     grid-template-columns: 1fr 1fr;
     height: 95vh;
     padding: 1rem calc((100vw - 1300px) / 2);
@@ -144,11 +145,13 @@ display: flex;
   }
   .division2 h4{
     padding: 20px;
+    align-items: center;
     
   }
+  
 
-  .division2 p{
-    align-items: center;
+  .division2 pre{
+    align-items:center;
     font-size: clamp(1rem, 0.3043rem + 3.478vw, 3 rem);
 
   }
